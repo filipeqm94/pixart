@@ -14,7 +14,7 @@ Use the starter code and commit each step of the exercise.
 
 ## Instructions
 
-1. Fork and clone this repository.
+1. Fork and clone this repository. Switch to a development branch.
 1. Fullfill the listed requirements.
 1. Make a pull request to turn your work in.
 
