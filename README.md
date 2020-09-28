@@ -24,7 +24,8 @@ Unless otherwise stated, homework assignments are due by 10 am ET the following 
 
 To prepare for the next lecture, check out the following video:
 
-- [JavaScript Fetch API](https://www.youtube.com/watch?v=uBR2wAvGces)
+- [Brief intro to JS Fetch API](https://www.youtube.com/watch?v=cuEtnrL9-H0)
+- [More on Fetch](https://www.youtube.com/watch?v=uBR2wAvGces)
 
 ## Requirements
 
