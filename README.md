@@ -16,14 +16,22 @@ Use the starter code and commit each step of the exercise.
 
 1. Fork and clone this repository. Switch to a development branch.
 1. Fullfill the listed requirements.
-1. Make a pull request to turn your work in.
+1. Make a pull request on this repo to turn your work in.
+
+Unless otherwise stated, homework assignments are due by 10 am ET the following class day.
+
+### Preview the next lecture
+
+To prepare for the next lecture, check out the following video:
+
+- [JavaScript Fetch API](https://www.youtube.com/watch?v=uBR2wAvGces)
 
 ### Commit 1
 
 * When I click the "Set Color" button, it should change the color of the "brush" box to the color I specify in the input field.
 * You can use `document.querySelector` (or another document method) to select the element, then add an event listener.
 
-> **HINT:** You will notice that the page refreshes whenever you click the button. You need to prevent this from happening using a method you have not used before. Google "javascript event prevent default". You can also reference [this portion](https://github.com/ga-wdi-lessons/js-events-callbacks#event-defaults-405---410-5-minutes) of the Events & Callbacks lesson plan.
+> **HINT:** You will notice that the page refreshes whenever you click the button. You need to prevent this from happening using a method you have not used before. Google "javascript event prevent default". 
 
 ### Commit 2
 
