@@ -26,6 +26,8 @@ To prepare for the next lecture, check out the following video:
 
 - [JavaScript Fetch API](https://www.youtube.com/watch?v=uBR2wAvGces)
 
+## Requirements
+
 ### Commit 1
 
 * When I click the "Set Color" button, it should change the color of the "brush" box to the color I specify in the input field.
