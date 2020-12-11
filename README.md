@@ -18,7 +18,7 @@ Use the starter code and commit each step of the exercise.
 1. Fullfill the listed requirements.
 1. Make a pull request on this repo to turn your work in.
 
-Unless otherwise stated, homework assignments are due by 10 am ET the following class day.
+Unless otherwise stated, homework assignments are due by 9 am ET the following class day.
 
 ### Preview the next lecture
 
@@ -64,7 +64,7 @@ To prepare for the next lecture, check out the following video:
 ### Bonus
 
 * Add a color swatch. You should have 3 boxes with the most recent 3 colors used. When you click on each of those boxes, it should set the current brush color back to that color.
-* Refactor your code using [event propogation](https://git.generalassemb.ly/seir-323/js-events#event-propagation).
+* Refactor your code using [event propogation](https://git.generalassemb.ly/SEIR-1130/js-events?organization=SEIR-1130&organization=SEIR-1130#event-propagation).
 
 ## Plagiarism
 
