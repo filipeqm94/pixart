@@ -18,7 +18,7 @@ Use the starter code and commit each step of the exercise.
 1. Fullfill the listed requirements.
 1. Make a pull request on this repo to turn your work in.
 
-Unless otherwise stated, homework assignments are due by 9 am ET the following class day.
+Unless otherwise stated, homework assignments are due by 10am ET the following class day.
 
 ### Preview the next lecture
 
