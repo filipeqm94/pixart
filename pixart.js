@@ -13,11 +13,11 @@ function setColor(event) {
 
 setColorBtn.addEventListener("click", setColor);
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 8000; i++) {
   const div = document.createElement("div");
   div.classList.add("square");
 
-  div.addEventListener("click", () => {
+  div.addEventListener("mouseover", () => {
     div.style.backgroundColor = color.value;
   });
 
