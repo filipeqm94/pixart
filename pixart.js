@@ -17,5 +17,10 @@ setColorBtn.addEventListener("click", setColor);
 for (let i = 0; i < 20; i++) {
   const div = document.createElement("div");
   div.classList.add("square");
+
+  div.addEventListener("click", () => {
+    div.style.backgroundColor = "green";
+  });
+
   document.body.appendChild(div);
 }
