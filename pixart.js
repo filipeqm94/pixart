@@ -1,12 +1,22 @@
 //variables
 const setColorBtn = document.querySelector("#set-color");
 const color = document.querySelector("#color-field");
-const brush = document.querySelector(".brush");
+const brushes = document.querySelectorAll(".brushes");
+
+let colorSave = "";
 
 //functions
 function setColor(event) {
   event.preventDefault();
-  brush.style.backgroundColor = color.value;
+
+  /* BONUS */
+  let tempColor = brushes[0].style.backgroundColor;
+  brushes[0].style.backgroundColor = color.value;
+  brushes[2].style.backgroundColor = brushes[1].style.backgroundColor;
+  brushes[1].style.backgroundColor = tempColor;
+
+  colorSave = color.value;
+  color.value = "";
 }
 
 //script
@@ -18,7 +28,7 @@ for (let i = 0; i < 8000; i++) {
   div.classList.add("square");
 
   div.addEventListener("mouseover", () => {
-    div.style.backgroundColor = color.value;
+    div.style.backgroundColor = colorSave;
   });
 
   document.body.appendChild(div);
