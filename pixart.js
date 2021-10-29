@@ -7,7 +7,6 @@ const brush = document.querySelector(".brush");
 function setColor(event) {
   event.preventDefault();
   brush.style.backgroundColor = color.value;
-  color.value = "";
 }
 
 //script
@@ -19,7 +18,7 @@ for (let i = 0; i < 20; i++) {
   div.classList.add("square");
 
   div.addEventListener("click", () => {
-    div.style.backgroundColor = "green";
+    div.style.backgroundColor = color.value;
   });
 
   document.body.appendChild(div);
